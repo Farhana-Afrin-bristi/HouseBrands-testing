@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SeleniumTestSuite">
+    <test name="UI Functional Tests">
+        <classes>
+            <class name="DashBoard.CreateOrderTests"/>
+            <class name="DashBoard.ProductPageTests"/>
+        </classes>
+    </test>
+</suite>
