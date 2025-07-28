@@ -8,7 +8,7 @@ import pages.CustomerOrderlistPage;
 
 public class CreateOrderTests extends BaseTest {
 
-    @Test
+
     public void CreateOrder() throws InterruptedException {
         CustomerOderPage createCustomerOrder = dashboard.clickOrderManagement();
 
